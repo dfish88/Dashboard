@@ -9,11 +9,15 @@ body{
 
 .header{
     grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .sidebar{
     grid-area: sidebar;
 }
+
 
 .dashboard{
     grid-area: dashboard
