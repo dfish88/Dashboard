@@ -12,6 +12,7 @@ body{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
+    place-items: center;
 }
 
 .header img{
@@ -19,8 +20,12 @@ body{
     height: 35px;
 }
 
-.header input{
-    width: 60%;
+.header .search{
+    place-self: center start;
+}
+
+.header .search input{
+    width: 100%;
 }
 
 .notifications{
@@ -29,7 +34,13 @@ body{
 }
 
 .greeting{
+    place-self: center start;
     display: flex;
+    gap: 40px;
+}
+
+.greeting-text{
+    display: grid;
 }
 
 .buttons{
