@@ -10,13 +10,31 @@ body{
 .header{
     grid-area: header;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
 }
 
 .header img{
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
+}
+
+.header input{
+    width: 60%;
+}
+
+.notifications{
+    display: flex;
+    gap: 40px;
+}
+
+.greeting{
+    display: flex;
+}
+
+.buttons{
+    display: flex;
+    gap: 40px;
 }
 
 .sidebar{
