@@ -28,6 +28,26 @@ body{
     width: 100%;
 }
 
+.sidebar{
+    padding: 20px;
+    border: solid 1px black;
+}
+
+.sidebar div{
+    display: flex;
+    gap: 8px;
+}
+
+.sidebar .link img{
+    width: 35px;
+    height: 35px;
+}
+
+.sidebar .title img{
+    width: 50px;
+    height: 50px;
+}
+
 .notifications{
     display: flex;
     gap: 40px;
