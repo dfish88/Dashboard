@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
@@ -35,8 +36,10 @@ body{
 }
 
 .sidebar div{
-    display: flex;
-    gap: 8px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 4px;
+
 }
 
 .sidebar .link img{
@@ -73,7 +76,14 @@ body{
     grid-area: sidebar;
 }
 
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 .dashboard{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     grid-area: dashboard
 }
