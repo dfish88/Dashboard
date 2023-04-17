@@ -76,14 +76,25 @@ body{
     grid-area: sidebar;
 }
 
-.projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
 .dashboard{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "projects annoucments"
+    "projects trending";
     grid-area: dashboard
+}
+
+.projects{
+    display: grid;
+    grid-area: projects;
+    grid-template-columns: 1fr 1fr;
+}
+
+.announcments{
+    grid-area: announcments;
+}
+
+.trending{
+    grid-area: trending;
 }
