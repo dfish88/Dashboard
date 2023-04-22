@@ -35,6 +35,8 @@ body{
     padding: 20px;
     border: solid 1px black;
     display: grid;
+    align-content: start;
+    gap: 40px;
     grid-template-columns: 1fr;
     grid-template-areas: 
     "title"
