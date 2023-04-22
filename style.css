@@ -34,6 +34,24 @@ body{
     grid-area: sidebar;
     padding: 20px;
     border: solid 1px black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "title"
+    "navigation"
+    "settings";
+}
+
+.title{
+    grid-area: title;
+}
+
+.navigation{
+    grid-area: navigation;
+}
+
+.settings{
+    grid-area: settings;
 }
 
 .title, .link{
