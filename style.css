@@ -12,6 +12,7 @@ body{
 .header{
     grid-area: header;
     display: grid;
+    gap: 16px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
     "search search notifications"
@@ -25,15 +26,17 @@ body{
 }
 
 .search{
-    place-self: center center;
+    place-self: center stretch;
     grid-area: search;
+    max-width: 80%;
+    padding-left: 10%;
 }
 
 .notifications{
     display: grid;
+    place-items: center center;
     grid-area: notifications;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
 }
 
 .greeting{
