@@ -30,6 +30,27 @@ body{
     width: 100%;
 }
 
+.notifications{
+    display: flex;
+    gap: 40px;
+}
+
+.greeting{
+    place-self: center start;
+    display: flex;
+    gap: 40px;
+}
+
+.greeting-text{
+    display: grid;
+}
+
+.buttons{
+    display: flex;
+    gap: 40px;
+}
+
+
 .sidebar{
     grid-area: sidebar;
     padding: 20px;
@@ -71,26 +92,6 @@ body{
 .sidebar .title img{
     width: 50px;
     height: 50px;
-}
-
-.notifications{
-    display: flex;
-    gap: 40px;
-}
-
-.greeting{
-    place-self: center start;
-    display: flex;
-    gap: 40px;
-}
-
-.greeting-text{
-    display: grid;
-}
-
-.buttons{
-    display: flex;
-    gap: 40px;
 }
 
 .dashboard{
