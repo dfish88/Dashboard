@@ -52,6 +52,14 @@ body{
     gap: 40px;
 }
 
+button{
+    background-color: aquamarine;
+    border-radius: 18px;
+    border: none;
+    padding: 10px;
+    flex: 1 0 5em;
+}
+
 .header .search input{
     width: 100%;
 }
