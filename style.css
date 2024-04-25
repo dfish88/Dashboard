@@ -27,7 +27,6 @@ body{
 .search{
     place-self: center stretch;
     grid-area: search;
-    max-width: 80%;
     padding-left: 10%;
 }
 
