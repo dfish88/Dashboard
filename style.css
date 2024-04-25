@@ -134,5 +134,7 @@ button{
 }
 
 .trending{
+    display: grid;
     grid-area: trending;
+    border-style: solid;
 }
