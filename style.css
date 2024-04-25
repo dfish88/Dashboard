@@ -54,10 +54,12 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+    padding: 15px;
 }
 
 button{
     background-color: aquamarine;
+    place-self: center stretch;
     border-radius: 18px;
     border: none;
     padding: 10px;
