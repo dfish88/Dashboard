@@ -17,7 +17,6 @@ body{
     grid-template-areas: 
     "search search notifications"
     "greeting greeting buttons";
-    place-items: center;
 }
 
 .header img{
@@ -52,7 +51,8 @@ body{
 
 .buttons{
     grid-area: buttons;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
 }
 
