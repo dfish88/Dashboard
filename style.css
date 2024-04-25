@@ -46,6 +46,10 @@ body{
     grid-template-columns: 1fr 1fr;
 }
 
+.greeting img{
+    place-self: center center;
+}
+
 .buttons{
     grid-area: buttons;
     display: flex;
