@@ -131,9 +131,7 @@ button{
     display: grid;
     grid-area: announcments;
     border-style: solid;
-
 }
-
 
 .trending{
     grid-area: trending;
