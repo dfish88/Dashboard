@@ -119,10 +119,25 @@ button{
 .dashboard{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr 4fr;
     grid-template-areas: 
+    "projects-title announcments-title"
     "projects announcments"
+    "projects trending-title"
     "projects trending";
     grid-area: dashboard
+}
+
+.projects-title{
+    grid-area: projects-title
+}
+
+.announcments-title{
+    grid-area: announcments-title;
+}
+
+.trending-title{
+    grid-area: trending-title;
 }
 
 .projects{
