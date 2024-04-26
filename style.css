@@ -1,3 +1,7 @@
+:root{
+    --sidebar-color :  #fbbf24
+}
+
 body{
     margin: 0;
     height: 100vh;
@@ -57,7 +61,7 @@ body{
 }
 
 button{
-    background-color: aquamarine;
+    background-color: var(--sidebar-color);
     place-self: center stretch;
     border-radius: 18px;
     border: none;
@@ -76,7 +80,7 @@ button{
 .sidebar{
     grid-area: sidebar;
     padding: 20px;
-    background-color: aquamarine;
+    background-color: var(--sidebar-color);
     display: grid;
     align-content: start;
     gap: 40px;
