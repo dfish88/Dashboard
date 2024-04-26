@@ -28,6 +28,11 @@ body{
     height: 35px;
 }
 
+.greeting img{
+    width: 100px;
+    height: 100px;
+}
+
 .search{
     place-self: center stretch;
     grid-area: search;
