@@ -2,6 +2,7 @@
     --sidebar-color :  #fbbf24;
     --background-color : beige;
     --card-color : white;
+    --shadow-color: rgba(49, 49, 49, 0.55);
 }
 
 body{
@@ -13,6 +14,7 @@ body{
     grid-template-areas: 
     "sidebar header"
     "sidebar dashboard";
+    background-color: var(--background-color);
 }
 
 .header{
@@ -23,6 +25,8 @@ body{
     grid-template-areas: 
     "search search notifications"
     "greeting greeting buttons";
+    box-shadow: 3px 3px 10px var(--shadow-color);
+    background-color: var(--card-color);
 }
 
 .header img{
@@ -141,20 +145,16 @@ button{
     "projects trending"
     "footer footer";
     grid-area: dashboard;
-    background-color: var(--background-color);
     gap: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
 }
 
 .projects-title{
     grid-area: projects-title;
-    background-color: var(--background-color);
 }
 
 .announcments-title{
     grid-area: announcments-title;
-    background-color: var(--background-color);
 }
 
 .trending-title{
@@ -166,7 +166,6 @@ button{
     grid-area: projects;
     grid-template-columns: 1fr 1fr;
     gap: 25px;
-    background-color: var(--background-color);
 }
 
 .project-icons{
@@ -182,6 +181,7 @@ button{
     background-color: var(--card-color);
     border-radius: 10px;
     padding: 25px;
+    box-shadow: 3px 3px 10px var(--shadow-color);
 }
 
 .card img{
@@ -196,6 +196,7 @@ button{
     background-color: var(--card-color);
     padding: 15px;
     border-radius: 10px;
+    box-shadow: 3px 3px 10px var(--shadow-color);
 }
 
 .announcments{
@@ -208,16 +209,13 @@ button{
     background-color: var(--card-color);
 }
 
-.trending-title{
-    background-color: var(--background-color);
-}
-
 .trending{
     display: grid;
     grid-area: trending;
     background-color: var(--card-color);
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 3px 3px 10px var(--shadow-color);
 }
 
 .trend{
