@@ -142,7 +142,6 @@ button{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 60px 4fr 0.25fr;
-    gap: 0px 2%;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -154,14 +153,14 @@ button{
 
 .dashboard-content{
     display: grid;
-    gap: 0 2%;
+    gap: 0 25px;
     grid-template-columns: 2fr 1fr;
 }
 
 .projects{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4%;
+    gap: 25px;
 }
 
 .project-icons{
