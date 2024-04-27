@@ -163,7 +163,7 @@ button{
     display: grid;
     grid-area: projects;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap: 25px;
     background-color: var(--background-color);
 }
 
@@ -171,13 +171,15 @@ button{
     place-self: end;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px
+    gap: 25px
 }
 
 .card{
     display:grid;
     grid-template-rows: 0.5fr 1fr 0.5fr;
     background-color: var(--card-color);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .card img{
@@ -189,6 +191,8 @@ button{
     display: grid;
     grid-area: announcments;
     background-color: var(--card-color);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .trending-title{
@@ -199,6 +203,8 @@ button{
     display: grid;
     grid-area: trending;
     background-color: var(--card-color);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .trend{
