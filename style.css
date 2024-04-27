@@ -159,14 +159,21 @@ button{
     border-style: solid;
 }
 
+.project-icons{
+    place-self: end;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px
+}
+
 .card{
     display:grid;
     grid-template-rows: 0.5fr 1fr 0.5fr;
 }
 
 .card img{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 
 .announcments{
