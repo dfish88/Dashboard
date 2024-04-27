@@ -133,12 +133,13 @@ button{
 .dashboard{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 4fr 1fr 4fr;
+    grid-template-rows: 0.5fr 4fr 0.5fr 4fr 0.5fr;
     grid-template-areas: 
     "projects-title announcments-title"
     "projects announcments"
     "projects trending-title"
-    "projects trending";
+    "projects trending"
+    "footer footer";
     grid-area: dashboard;
     background-color: var(--background-color);
     gap: 20px;
