@@ -169,3 +169,13 @@ button{
     grid-area: trending;
     border-style: solid;
 }
+
+.trend{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.trend img {
+    width: 50px;
+    height: 50px;
+}
