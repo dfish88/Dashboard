@@ -1,5 +1,7 @@
 :root{
-    --sidebar-color :  #fbbf24
+    --sidebar-color :  #fbbf24;
+    --background-color : beige;
+    --card-color : white;
 }
 
 body{
@@ -157,7 +159,7 @@ button{
     grid-area: projects;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    background-color: beige;
+    background-color: var(--background-color);
     border-style: solid;
 }
 
@@ -171,7 +173,7 @@ button{
 .card{
     display:grid;
     grid-template-rows: 0.5fr 1fr 0.5fr;
-    background-color: white;
+    background-color: var(--card-color);
 }
 
 .card img{
