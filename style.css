@@ -87,7 +87,7 @@ button{
     grid-area: sidebar;
     padding: 20px;
     background-color: var(--sidebar-color);
-    display: gridy
+    display: grid;
     align-content: start;
     gap: 40px;
     grid-template-columns: 1fr;
