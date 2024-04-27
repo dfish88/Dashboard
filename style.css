@@ -35,7 +35,6 @@ body{
 
 .search{
     display: grid;
-    grid-template-columns: 1fr 10fr;
     place-self: center stretch;
     grid-area: search;
     padding-left: 10%;
@@ -88,7 +87,7 @@ button{
     grid-area: sidebar;
     padding: 20px;
     background-color: var(--sidebar-color);
-    display: grid;
+    display: gridy
     align-content: start;
     gap: 40px;
     grid-template-columns: 1fr;
@@ -158,6 +157,11 @@ button{
     grid-area: projects;
     grid-template-columns: 1fr 1fr;
     border-style: solid;
+}
+
+.projects img{
+    width: 20px;
+    height: 20px;
 }
 
 .announcments{
