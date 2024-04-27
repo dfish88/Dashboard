@@ -136,7 +136,7 @@ button{
     grid-template-rows: 0.5fr 4fr 0.5fr 4fr 0.5fr;
     grid-template-areas: 
     "projects-title announcments-title"
-    "projects announcments"
+    "projects announcments-container"
     "projects trending-title"
     "projects trending"
     "footer footer";
@@ -189,12 +189,23 @@ button{
     height: 25px;
 }
 
+.announcments-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-area: announcments-container;
+    background-color: var(--card-color);
+    padding: 15px;
+    border-radius: 10px;
+}
+
 .announcments{
     display: grid;
-    grid-area: announcments;
+    background-color: var(--background-color);
+    gap: 3px;
+}
+
+.announcment{
     background-color: var(--card-color);
-    border-radius: 10px;
-    padding: 10px;
 }
 
 .trending-title{
