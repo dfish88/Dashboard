@@ -34,6 +34,8 @@ body{
 }
 
 .search{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
     place-self: center stretch;
     grid-area: search;
     padding-left: 10%;
