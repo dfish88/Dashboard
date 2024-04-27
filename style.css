@@ -156,6 +156,8 @@ button{
     display: grid;
     grid-area: projects;
     grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    background-color: beige;
     border-style: solid;
 }
 
@@ -169,6 +171,7 @@ button{
 .card{
     display:grid;
     grid-template-rows: 0.5fr 1fr 0.5fr;
+    background-color: white;
 }
 
 .card img{
