@@ -193,7 +193,8 @@ button{
     display: grid;
     grid-template-columns: 1fr;
     background-color: var(--card-color);
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-radius: 10px;
     box-shadow: 3px 3px 10px var(--shadow-color);
 }
