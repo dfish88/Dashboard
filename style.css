@@ -13,6 +13,11 @@
     font-family: 'Lato', sans-serif;
 }
 
+p{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 0;
     height: 100vh;
@@ -216,6 +221,16 @@ button{
 
 .trend img {
     place-self: center;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+.trend-text{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.trend-text p:first-child{
+    align-self: end;
+    font-weight: bold;
 }
