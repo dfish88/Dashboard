@@ -234,3 +234,7 @@ button{
     align-self: end;
     font-weight: bold;
 }
+
+.announcment p:first-child{
+    padding-bottom: 5px;
+}
