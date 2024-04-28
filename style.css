@@ -2,6 +2,7 @@
 
 :root{
     --sidebar-color :  #fbbf24;
+    --accent-color : #fb5424;
     --background-color : beige;
     --card-color : white;
     --shadow-color: rgba(49, 49, 49, 0.55);
@@ -180,11 +181,22 @@ button{
 
 .card{
     display:grid;
-    grid-template-rows: 0.5fr 1fr .25fr;
+    grid-template-columns: 10px 1fr;
     background-color: var(--card-color);
     border-radius: 10px;
-    padding: 15px;
     box-shadow: 3px 3px 10px var(--shadow-color);
+}
+
+.card-content{
+    display: grid;
+    grid-template-rows: 0.25 1fr .5fr;
+    padding: 15px;
+}
+
+.card-accent{
+    background-image: linear-gradient(var(--sidebar-color), var(--accent-color));
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .card img{
