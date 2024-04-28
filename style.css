@@ -201,8 +201,7 @@ button{
     display: grid;
     grid-template-columns: 1fr;
     background-color: var(--card-color);
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 25px;
     border-radius: 10px;
     box-shadow: 3px 3px 10px var(--shadow-color);
 }
@@ -215,6 +214,7 @@ button{
 
 .announcment{
     background-color: var(--card-color);
+    padding-bottom: 10px;
 }
 
 .trending{
@@ -239,11 +239,17 @@ button{
 .trend-text{
     display: grid;
     grid-template-columns: 1fr;
+    padding-left: 10px;
 }
 
 .trend-text p:first-child{
     align-self: end;
     font-weight: bold;
+}
+
+.trend-text p:last-child, .announcment p:last-child, .card p:nth-child(2){
+    font-size: 85%;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 .announcment p:first-child{
