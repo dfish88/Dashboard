@@ -50,11 +50,6 @@ body{
     height: 35px;
 }
 
-.greeting img{
-    width: 100px;
-    height: 100px;
-}
-
 .search{
     display: grid;
     grid-template-columns: .25fr 4fr;
@@ -80,11 +75,19 @@ body{
     grid-area: greeting;
     place-self: center start;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 .greeting img{
     place-self: center center;
+    width: 100px;
+    height: 100px;
+}
+
+.greeting-text p:last-child{
+   font-weight: bold; 
+   font-size: 125%;
+   align-self: center;
 }
 
 .buttons{
@@ -261,7 +264,7 @@ button{
     padding-left: 10px;
 }
 
-.trend-text p:first-child{
+.trend-text p:first-child, .greeting-text p:first-child{
     align-self: end;
     font-weight: bold;
 }
