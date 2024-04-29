@@ -46,8 +46,8 @@ body{
 }
 
 .header img{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 }
 
 .search{
@@ -56,6 +56,7 @@ body{
     place-self: center stretch;
     grid-area: search;
     padding-left: 5%;
+    padding-top: 2%;
 }
 
 .search input{
@@ -65,10 +66,18 @@ body{
 }
 
 .notifications{
-    display: grid;
+    display: flex;
+    justify-content: flex-end;
     place-items: center center;
+    gap: 35px;
     grid-area: notifications;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 0.65fr 0.65fr 1fr;
+    padding-right: 60px;
+}
+
+.notifications img:nth-child(2){
+    width: 50px;
+    height: 50px;
 }
 
 .greeting{
@@ -76,12 +85,13 @@ body{
     place-self: center start;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    padding-left: 40px;
 }
 
 .greeting img{
     place-self: center center;
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: 85px;
 }
 
 .greeting-text p:last-child{
