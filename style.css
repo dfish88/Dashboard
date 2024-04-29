@@ -57,9 +57,16 @@ body{
 
 .search{
     display: grid;
+    grid-template-columns: .25fr 4fr;
     place-self: center stretch;
     grid-area: search;
-    padding-left: 10%;
+    padding-left: 5%;
+}
+
+.search input{
+    border-radius: 25px;
+    border-style: none;
+    background-color: var(--background-color);
 }
 
 .notifications{
