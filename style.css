@@ -189,7 +189,7 @@ button{
 
 .card-content{
     display: grid;
-    grid-template-rows: 0.25 1fr .5fr;
+    grid-template-rows: 0.35fr 1fr .25fr;
     padding: 15px;
 }
 
